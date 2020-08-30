@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>        
+        <li><a href="ej8.php?pi">Numero PI</a></li>
+        <li><a href="ej8.php?creadores">Creadores de la calculadora</a></li>
+    </ul>
+    
+
+    <h1>Calculadora</h1>    
+
+
+    <form action="ej8.php" method="get">
+        <input type="number" name="numero1" placeholder="numero1">
+        <select name="operaciones">
+            <option value="sumar">+</option>
+            <option value="restar">-</option>
+            <option value="multiplicar">x</option>
+            <option value="dividir">/</option>
+        </select>
+        <input type="number" name="numero2" placeholder="numero2">
+        <button type="submit">=</button>
+    </form>
+</body>
+</html>

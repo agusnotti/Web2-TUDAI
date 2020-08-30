@@ -1,0 +1,31 @@
+<!-- 3. Escribir un programa que mediante un formulario html un usuario pueda ingresar su
+nombre, apellido y edad para que sean enviados al servidor. El programa, debe recibir
+los datos y mostrar la información por pantalla.
+a. Envíe el formulario usando los métodos POST y GET. ¿Cuál es la diferencia?
+¿En qué situaciones considera mejor utilizar uno u el otro?
+b. Investigue las diferencias entre los arreglos $_POST $_GET y $_REQUEST de
+PHP
+c. Genere validaciones de datos en el servidor. Ningún campo puede estar vacío.
+¿Cuál es la diferencia entre realizar estas verificaciones del lado del cliente o del
+lado del servidor? -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Practico 1</title>
+</head>
+<body>
+    
+    <form action="ej3.php" method="post">
+        <label>Nombre </label><input type="text" name="nombre"><br>
+        <br>
+        <label>Apellido </label><input type="text" name="apellido"><br>
+        <br>
+        <label>Edad </label><input type="text" name="edad"><br>
+        <br>
+        <button type="submit">ENVIAR</button>
+    </form>
+
+</body>
+</html>

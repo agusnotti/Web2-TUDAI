@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9 - Practico 1</title>
+</head>
+
+<body>
+
+    <h1>Formulario</h1>
+
+    <form action="ej9.php" method="post">
+        <label>Nombre </label><input type="text" name="nombre"><br>
+        <br>
+        <label>Apellido </label><input type="text" name="apellido"><br>
+        <br>
+        <label>Edad </label><input type="text" name="edad"><br>
+
+        <p>Genero</p>
+        <input type="radio" id="masculino" name="genero" value="Masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="femenino" name="genero" value="Femenino">
+        <label for="femenino">Femenino</label><br>
+
+        <p>Pais</p>
+        <select name="paises">
+            <option value="Argentina">Argentina</option>
+            <option value="Peru">Peru</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Uruguay">Uruguay</option>
+        </select>
+
+        <p>Intereses</p>
+        <input type="checkbox" id="musica" name="intereses[]" value="Musica">
+        <label for="musica">Musica</label><br>
+        <input type="checkbox" id="arte" name="intereses[]" value="Arte">
+        <label for="arte">Arte</label><br>
+        <input type="checkbox" id="Deporte" name="intereses[]" value="Deporte">
+        <label for="deporte">Deporte</label><br>
+        <br>
+        <button type="submit">ENVIAR</button>
+    </form>
+
+</body>
+
+</html>
