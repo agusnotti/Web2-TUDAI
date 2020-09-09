@@ -1,0 +1,21 @@
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+    width: 50px;
+    text-align: center;
+}
+
+th{
+    font-weight: bold;
+}
+
+.tdAmarillo{
+    background-color: yellow;
+}
+
+ul.links{
+    list-style-type: none;
+}
