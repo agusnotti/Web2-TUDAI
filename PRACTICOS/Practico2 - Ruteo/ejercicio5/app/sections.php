@@ -20,10 +20,6 @@ function showHome(){
                 <li><a href="'. BASE_URL . 'tabla/10">Limite 10</a></li>
                 <li><a href="'. BASE_URL . 'tabla/20">Limite 20</a></li>
             </ul>';
-
-    // $html .= '<a href="'. BASE_URL . 'tabla/5">Limite 5</a></br>';
-    // $html .= '<a href="'. BASE_URL . 'tabla/10">Limite 10</a></br>';
-    // $html .= '<a href="'. BASE_URL . 'tabla/20">Limite 20</a></br>';
        
     $html.='</body>
     </html>';
